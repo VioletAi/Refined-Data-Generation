@@ -1,0 +1,39 @@
+{'scene_id': 'scene0000_00', 'object_id': '35', 'object_name': 'table', 'ann_id': '0', 'id': 'scene0000_00-35_0', 'camera': {'position': [3.6956730282533194, 1.7427726453922707, 1.7362203831755134], 'rotation': [-0.14027123163839028, 0.9221212040976812, 1.746164285508653], 'lookat': [1.806332290172577, 1.5425148606300354, 0.3179492875933647]}}
+tensor([-1.7240, -3.4798, -0.5051,  1.8050, -0.5965,  2.6936,  0.2040, -2.7929,
+         1.0153,  2.4446, -2.6728, -1.2340, -2.6459,  0.4150, -0.5159, -0.4079,
+        -2.0110, -0.5639, -1.0931,  0.0750, -2.0691, -1.7192, -2.0076,  0.7357,
+         1.7762,  0.4030, -2.0272, -2.9106, -0.3447,  2.3634, -0.4371,  2.3036,
+        -1.4817, -2.5554,  1.3282, -1.0763, -0.4588,  2.3128, -2.0763, -2.8791,
+        -2.5601, -2.0505,  0.5809, -0.5773, -1.5116, -0.0086, -2.2010, -1.5209,
+        -2.7783,  0.2040, -2.2344,  2.9070, -0.8617, -2.4238,  1.3172,  0.2632,
+         0.2040,  0.0750,  0.1112,  2.6936,  0.8927,  0.4150,  0.1088, -1.7192,
+         0.1948,  0.2040,  2.6936,  2.6936,  0.0750, -1.8227,  0.2040, -2.7739,
+        -1.5116, -2.1512,  2.6936, -0.1156, -0.4525,  0.2040,  0.8927, -2.9659,
+         1.3172,  1.8500,  2.6936,  0.0750, -2.7155,  2.0195, -2.7783, -2.5962,
+        -1.6558,  0.1142, -2.2344, -1.7240,  2.6936,  1.1504,  0.0750, -0.8617,
+        -2.0333,  0.0750, -2.0269, -1.8227], device='cuda:0')
+inside here: i:  tensor(24, device='cuda:0') depths:  tensor(1.7762, device='cuda:0')
+i tensor(24, device='cuda:0') [-546.2890625, -379.1015625, 265.3076171875, 405.029296875]
+inside here: i:  tensor(29, device='cuda:0') depths:  tensor(2.3634, device='cuda:0')
+i tensor(29, device='cuda:0') [146.2890625, 154.6142578125, 455.26123046875, 345.00732421875]
+inside here: i:  tensor(92, device='cuda:0') depths:  tensor(2.6936, device='cuda:0')
+i tensor(92, device='cuda:0') [463.97705078125, 221.9970703125, 518.212890625, 270.88623046875]
+inside here: i:  tensor(59, device='cuda:0') depths:  tensor(2.6936, device='cuda:0')
+i tensor(59, device='cuda:0') [463.97705078125, 221.9970703125, 518.212890625, 270.88623046875]
+Object 59 is occluded by object 92 with IoU 1.0.
+inside here: i:  tensor(5, device='cuda:0') depths:  tensor(2.6936, device='cuda:0')
+i tensor(5, device='cuda:0') [463.97705078125, 221.9970703125, 518.212890625, 270.88623046875]
+Object 5 is occluded by object 92 with IoU 1.0.
+inside here: i:  tensor(66, device='cuda:0') depths:  tensor(2.6936, device='cuda:0')
+i tensor(66, device='cuda:0') [463.97705078125, 221.9970703125, 518.212890625, 270.88623046875]
+Object 66 is occluded by object 92 with IoU 1.0.
+inside here: i:  tensor(67, device='cuda:0') depths:  tensor(2.6936, device='cuda:0')
+i tensor(67, device='cuda:0') [463.97705078125, 221.9970703125, 518.212890625, 270.88623046875]
+Object 67 is occluded by object 92 with IoU 1.0.
+inside here: i:  tensor(82, device='cuda:0') depths:  tensor(2.6936, device='cuda:0')
+i tensor(82, device='cuda:0') [463.97705078125, 221.9970703125, 518.212890625, 270.88623046875]
+Object 82 is occluded by object 92 with IoU 1.0.
+inside here: i:  tensor(74, device='cuda:0') depths:  tensor(2.6936, device='cuda:0')
+i tensor(74, device='cuda:0') [463.97705078125, 221.9970703125, 518.212890625, 270.88623046875]
+Object 74 is occluded by object 92 with IoU 1.0.
+visible indices [24, 29, 92]
